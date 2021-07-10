@@ -83,10 +83,9 @@ def day_to_unit(days, unit1):
 
 user_input = " "
 
-while user_input != "exit":
-    user_input = input("Enter the number days & conversion unit =  ")
-    days_units = user_input.split(":")
-    days_units_dict = {"day": days_units[0], "unit": days_units[1]}
-    input_validation_2()
+user_input = "10:Hours"
+days_units = user_input.split(":")
+days_units_dict = {"day": days_units[0], "unit": days_units[1]}
+input_validation_2()
 
 
