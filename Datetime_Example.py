@@ -1,7 +1,7 @@
 import datetime
 
 
-# Program to find out the time left deadline from todays date.
+# Program to find out the time left deadline from today's date.
 
 
 user_input = input("Please enter the goal & deadline in DD.MM.YYYY format, seperated by ':' =  ")

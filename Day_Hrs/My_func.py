@@ -81,6 +81,7 @@ def input_validation_try_for():
 #################Dictionary func#########################################################
 
 
+'''
 def input_validation_try1():
     try:
         days = int(days_units_dict["day"])  # assigning dict key to variable
@@ -123,3 +124,4 @@ def day_to_unit(days, unit1):
         print("Unsupported unit entered")
 
 #################func#########################################################
+'''

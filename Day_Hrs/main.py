@@ -68,22 +68,22 @@ def input_validation_2():
 def day_to_unit(days, unit1):
     if unit1 == "Hours":
         result = days * 24
-        print(f"Total number of hours in {days} is {result}")
+        print(f"Total number of hours in {days} days are {result}")
     elif unit1 == "Minutes":
         result = days * 24 * 60
-        print(f"Total number of minutes in {days} is {result}")
+        print(f"Total number of minutes in {days} days are {result}")
 
     elif unit1 == "Seconds":
         result = days * 24 * 60 * 60
-        print(f"Total number of seconds in {days} is {result}")
+        print(f"Total number of seconds in {days} days are {result}")
 
     else:
         print("Unsupported unit entered")
 
 
-user_input = " "
+#user_input = " "
 
-user_input = "10:Hours"
+user_input = "10:Seconds"
 days_units = user_input.split(":")
 days_units_dict = {"day": days_units[0], "unit": days_units[1]}
 input_validation_2()
