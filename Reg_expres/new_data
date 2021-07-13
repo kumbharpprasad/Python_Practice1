@@ -1,0 +1,35 @@
+Mon: Programer
+Mon Jul 11 13:32:32.662 <kernel> /System/Volumes/Data/SWE/macOS/BuildRoots/e90674e518/Library/Caches/com.apple.xbs/Sources/AirPortFamily_kexts/AirPortFamily-1850.7/IO80211Family/BaseClass/IO80211ScanManager.cpp::scanControl[2182] Error: Scan control command failure
+Mon Jul 11 13:32:32.662 <airport[373]> systemWokenByWiFi: System Wake Reason not found
+Mon Jul 11 13:32:32.662 <airport[373]> systemWokenByWiFi: System Wake Reason not found
+Mon Jul 11 13:32:32.662 <airport[373]> systemWokenByWiFi: System Wake Reason not found
+Mon Jul 11 13:32:32.678 Usb Host Notification en0 driver available, seqNum 3087, Total 0
+Mon Jul 11 13:32:32.678 Usb Host Notification Error Apple80211Set: Device power is off seqNum 3087 en0
+Mon Jul 11 13:32:33.096 Usb Host Notification en0 driver available, seqNum 3088, Total 0
+Mon Jul 11 13:32:33.107 Usb Host Notification Apple80211Set: seqNum 3088 en0
+Mon Jul 11 13:32:33.250 <kernel>  IOCTL (from pid 373) not recognized: 5 out of 379
+Mon Jul 11 13:35:16.433 <kernel> /System/Volumes/Data/SWE/macOS/BuildRoots/e90674e518/Library/Caches/com.apple.xbs/Sources/AirPortFamily_kexts/AirPortFamily-1850.7/IO80211Family/BaseClass/IO80211ScanManager.cpp::scanControl[2182] Error: Scan control command failure
+Mon Jul 11 13:35:16.433 <kernel> /System/Volumes/Data/SWE/macOS/BuildRoots/e90674e518/Library/Caches/com.apple.xbs/Sources/AirPortFamily_kexts/AirPortFamily-1850.7/IO80211Family/BaseClass/IO80211ScanManager.cpp::scanControl[2182] Error: Scan control command failure
+Mon Jul 11 13:35:16.433 <kernel> /System/Volumes/Data/SWE/macOS/BuildRoots/e90674e518/Library/Caches/com.apple.xbs/Sources/AirPortFamily_kexts/AirPortFamily-1850.7/IO80211Family/BaseClass/IO80211ScanManager.cpp::scanControl[2182] Error: Scan control command failure
+Mon Jul 11 13:35:16.433 <kernel> /System/Volumes/Data/SWE/macOS/BuildRoots/e90674e518/Library/Caches/com.apple.xbs/Sources/AirPortFamily_kexts/AirPortFamily-1850.7/IO80211Family/BaseClass/IO80211ScanManager.cpp::scanControl[2182] Error: Scan control command failure
+Mon Jul 11 13:35:16.433 <airport[373]> systemWokenByWiFi: System Wake Reason not found
+Mon Jul 11 13:35:16.433 <airport[373]> systemWokenByWiFi: System Wake Reason not found
+Mon Jul 11 13:35:16.433 <airport[373]> systemWokenByWiFi: System Wake Reason not found
+Mon Jul 11 13:35:16.960 <airport[373]> airportdProcessDLILEvent: <en0> event=1, flags=0xFFFF8863, lastPowerPref=on
+Mon Jul 11 13:35:16.960 <airport[373]> airportdProcessDLILEvent: en0 marked UP, applying user power preferences (ON).
+Mon Jul 11 13:35:16.960 <airport[373]> airportdProcessDLILEvent: <en0> Setting power ON
+Mon Jul 11 13:35:17.001 <kernel>  IOCTL (from pid 373) not recognized: 5 out of 379
+Mon Jul 11 13:35:17.182 Usb Host Notification en0 driver available, seqNum 3089, Total 0
+Mon Jul 11 13:35:17.186 Usb Host Notification Apple80211Set: seqNum 3089 en0
+Mon Jul 11 13:35:17.333 Usb Host Notification en0 driver available, seqNum 3090, Total 0
+Mon Jul 11 13:35:17.338 Usb Host Notification Apple80211Set: seqNum 3090 en0
+Mon Jul 11 13:36:09.849 <kernel> postMessage::1412 APPLE80211_M_BSSID_CHANGED received
+Mon Jul 11 13:36:09.849  <kernel> postMessage::1412 APPLE80211_M_BSSID_CHANGED received
+Mon Jul 11 13:36:09.850  Sun Jul 11 13:36:09.963 <airport[373]> ERROR: rapportd (526) is not entitled for com.apple.wifi.join_history, will not allow request
+Mon Jul 11 13:36:09.964 <airport[373]> ERROR: sharingd (586) is not entitled for com.apple.wifi.join_history, will not allow request
+Mon Jul 11 13:36:09.986 <airport[373]> ERROR: rapportd (526) is not entitled for com.apple.wifi.join_history, will not allow request
+Mon Jul 11 13:36:09.987 <airport[373]> ERROR: sharingd (586) is not entitled for com.apple.wifi.join_history, will not allow request
+Mon Jul 11 13:36:10.009 <airport[373]> ERROR: sharingd (586) is not entitled for com.apple.wifi.join_history, will not allow request
+Mon Jul 11 13:36:10.009 <airport[373]> ERROR: rapportd (526) is not entitled for com.apple.wifi.join_history, will not allow request
+Mon Jul 11 13:36:10.024 <airport[373]> ERROR: sharingd (586) is not entitled for com.apple.wifi.join_history, will not allow request
+Mon Jul 11 13:36:10.024 <airport[373]> ERROR: rapportd (526) is not entitled for com.apple.wifi.join_history, will not allow request

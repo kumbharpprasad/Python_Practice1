@@ -2,6 +2,7 @@ import re
 import time
 
 file= open('data', 'r')
+output_file= open('new_data', 'wt')
 
 #Findall example  . return all results
 '''
@@ -32,6 +33,7 @@ for line in file:
         print(f"Pattern Found!!")
         time.sleep(1)
         match= re.sub(pattern, "Mon", line)
+        output_file.write(match)
         print(f"String Replaced!!: {match}")
 
 
@@ -58,3 +60,8 @@ y="Hello World"
 z=y.split(" ")
 print(z[::-1])
 '''
+
+
+file.close()
+output_file.close()
+
