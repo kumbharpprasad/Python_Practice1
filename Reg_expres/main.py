@@ -62,18 +62,25 @@ z=y.split(" ")
 print(z[::-1])
 '''
 
-# Match mobile numbers
+# Match mobile numbers; Data 1
 
-''''
-pattern= "([\d]{1,3})+\-?([\d]{1,3})+\-([\d]{1,4})"     #([\d]{1,3}) > first set, with digit, 1 to 3 digits. #{1,3} digits between 1 to 3 times . #+\-? >optional "-"
+'''
+pattern= "([\d]{1,3})\-?([\d]{1,3})\-([\d]{1,4})"     #([\d]{1,3}) > first set, with digit, 1 to 3 digits. #{1,3} digits between 1 to 3 times . #+\-? >optional "-"
 
 for line in output_file:
     if re.search(pattern, line):
         print(line)
 '''
 
+# Data 2 Mobile number 1
 
+'''
+pattern= "^(\+?[\d]{1,3}[- ]?)?([\d]{10}$)"      #"+" optional matching
+for line in output_file:
+    if re.search(pattern, line):
+        print(line)
 
+'''
 
 #print 10th line.
 
