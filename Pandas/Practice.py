@@ -88,3 +88,4 @@ data_csv['Total'] = data_csv['HP'] + data_csv['Attack'] + data_csv['Defense'] + 
 
 #count
 print(data_csv.groupby(['Type 1']).count())
+
