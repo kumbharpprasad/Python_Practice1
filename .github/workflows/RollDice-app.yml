@@ -13,7 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    
     - name: Run Application
       run: cd Roll_Dice && python main.py
         
