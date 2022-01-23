@@ -18,7 +18,7 @@ for line in file:
 #Match strings examples
 
 #pattern= "^S[a-z]*"                                    #Word Sun
-#pattern= "[\w]+@[\w]+\.[\w]"                          # Email
+#pattern= "[\w]+@[\w]+\.[\w]"                          # Email [\w | Matches alphanumeric characters, which means a-z, A-Z, and 0-9. It also matches the underscore, _.]
 #pattern= "[\W]+@[\w]+\.[\w]"                           # email with first name is not word.
 #pattern= "\+[\d]{0,3} [\d]"                             #"\+" Start with +, "+[\d]{0,3}" 0-3 digits, space * digits
 
@@ -43,6 +43,8 @@ for line in file:
 #Search a log from a file with time range.
 '''
 
+#Log Pattern using function.
+'''
 def log_pat(pattern, name):
     match=pattern
     for line in name:
@@ -50,9 +52,9 @@ def log_pat(pattern, name):
             print(line)
 
 #log_pat("Sun Jul 11 13:3[2-5]", file)
+'''
 
-
-#slicing
+#slicing [ Reverse the string ]
 '''
 x="Hello World"
 print(x[::-1])
@@ -72,8 +74,10 @@ for line in output_file:
         print(line)
 '''
 
-# Data 2 Mobile number 1
 
+
+
+#Complex mobile number matching
 '''
 pattern= "^(\+?[\d]{1,3}[- ]?)?([\d]{10}$)"      #"+" optional matching
 for line in output_file:
@@ -88,11 +92,16 @@ for line in output_file:
 count=0
 
 for i in output_file:
-    if count==9:
+    if count<=9:
         print(i)
+        count = count + 1
     else:
-        count= count+1
-'''
+        exit(0)
+
+
+
+
+#'''
 
 
 

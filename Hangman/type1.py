@@ -1,4 +1,3 @@
-
 turns=10
 failed=0
 guesses=[]
